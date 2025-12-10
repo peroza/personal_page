@@ -4,25 +4,31 @@ layout: homepage
 
 ## About Me
 
-I just graduated from EPFL in computer science, with a minor in management, technology, and entrepreneurship. My goal is to combine computer science with sustainable development, particularly in fields that address the pressing issues of climate change and food systems.
+I’m a PhD candidate at the University of Bologna in Agricultural, Environmental and Food Science and Technology. My work explores the behavioural and systemic dynamics behind food waste and sustainability across agrifood systems.
 
-I am passionate about leveraging technology to drive positive environmental change, and I seek to build solutions that promote sustainability and ethical development.
+Alongside my doctorate, I am a part-time software engineer at the Food and Agriculture Organization (FAO), where I contribute to digitalisation and traceability tools supporting value chains in Central Africa.
+
+My background is in computer science, with a Master’s from EPFL and a focus on AI-driven approaches to personalised nutrition and digital health. I’m passionate about using technology to build more resilient, fair, and sustainable food systems.
 
 ## Research Interests
 
-**Software Engineering:** Mobile development, AI-driven chatbots, conversational agents, large-scale software systems (Python, Swift, Java, MySQL).
+**Software Engineering:** Mobile development, AI-powered tools, conversational agents, backend systems, data-driven applications (Python, Swift, Java, MySQL).
 
-**Sustainability:** Agri-tech, data-driven farming, environmental tech, climate change mitigation strategies.
+**Sustainability:** Life Cycle Thinking, behavioural science, agri-tech innovation, environmental impact assessment, climate-resilient systems.
 
-**Food Sector:** Personalized nutrition, sustainable food systems, ethical supply chains, agro-tech innovation.
+**Food Sector:** Sustainable food systems, food waste reduction, ethical and transparent supply chains, digital tools for value-chain transformation.
 
 ## News
 
-- **[Jun. 2025]** Started a new position as Research Fellow at the University of Bologna, working on behavioural and policy-oriented strategies to reduce food waste across agrifood systems in Albania, Egypt, and Tunisia.
-- **[Mar. 2025]** Presented my work on [EcoLens](https://zeroemission.group/ecolens/) at the [Sustainability Innovation Challenge](https://epfl-sic.ch/), connecting with a diverse European audience on topics of sustainable innovation.
-- **[Oct. 2024]** Participated in the [World Food Forum](https://www.world-food-forum.org/en) at FAO headquarters in Rome as part of the Swiss delegation, representing EPFL and engaging in discussions on food systems and sustainability.
-- **[Jul. 2024]** Defended my thesis at the [Digital Epidemiology Lab](https://www.digitalepidemiologylab.org/) at EPFL with my supervisor [Marcel Salathé](https://people.epfl.ch/marcel.salathe?lang=en) and [Jacques Fellay](https://people.epfl.ch/jacques.fellay?lang=en) as the external expert.
-- **[Apr. 2024]** Obtained the [IDM (Ingénieur·e·s du Monde)](https://www.epfl.ch/campus/associations/list/idm/) grant scholarship as a result of my internship experience at [eProd Solutions](https://www.eprod-solutions.com/) in Nairobi, Kenya, which contributed to the betterment of social and environmental conditions of farmers in East-Africa.
+- **[Nov. 2025]** Started my PhD at the University of Bologna, researching behavioural and systemic strategies to reduce food waste in North Africa.  
+- **[Nov. 2025]** Joined the Food and Agriculture Organization (FAO) as a part-time software engineer, working on digitalisation and traceability tools for value chains in Central Africa.  
+- **[Oct. 2025]** Attended the [World Food Forum](https://www.world-food-forum.org/en) for te launch of the Switzerland Yout Chapter.  
+- **[Jun. 2025]** Started a new position as Research Fellow at UniBo, focusing on behavioural and policy-oriented strategies for food waste reduction in Albania, Egypt, and Tunisia.  
+- **[Mar. 2025]** Presented my work on [EcoLens](https://zeroemission.group/ecolens/) at the [Sustainability Innovation Challenge](https://epfl-sic.ch/), engaging with a European community around sustainable innovation.  
+- **[Oct. 2024]** Attended the [World Food Forum](https://www.world-food-forum.org/en) at FAO headquarters in Rome as part of the Swiss delegation, representing EPFL and contributing to discussions on global food systems.  
+- **[Jul. 2024]** Defended my thesis at the [Digital Epidemiology Lab](https://www.digitalepidemiologylab.org/) at EPFL under the supervision of [Marcel Salathé](https://people.epfl.ch/marcel.salathe?lang=en), with [Jacques Fellay](https://people.epfl.ch/jacques.fellay?lang=en) as external expert.  
+- **[Apr. 2024]** Awarded the [IDM (Ingénieur·e·s du Monde)](https://www.epfl.ch/campus/associations/list/idm/) grant for my internship at [eProd Solutions](https://www.eprod-solutions.com/) in Nairobi, Kenya, supporting improved socio-environmental outcomes for farmers in East Africa.
+
 
 
 

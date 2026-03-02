@@ -22,7 +22,7 @@ My background is in computer science, with a Master’s from EPFL and a focus on
 
 - **[Nov. 2025]** Started my PhD at the University of Bologna, researching behavioural and systemic strategies to reduce food waste in North Africa.  
 - **[Nov. 2025]** Joined the Food and Agriculture Organization (FAO) as a part-time software engineer, working on digitalisation and traceability tools for value chains in Central Africa.  
-- **[Oct. 2025]** Attended the [World Food Forum](https://www.world-food-forum.org/en) for te launch of the Switzerland Yout Chapter.  
+- **[Oct. 2025]** Attended the [World Food Forum](https://www.world-food-forum.org/en) for the launch of the Switzerland Youth Chapter.  
 - **[Jun. 2025]** Started a new position as Research Fellow at UniBo, focusing on behavioural and policy-oriented strategies for food waste reduction in Albania, Egypt, and Tunisia.  
 - **[Mar. 2025]** Presented my work on [EcoLens](https://zeroemission.group/ecolens/) at the [Sustainability Innovation Challenge](https://epfl-sic.ch/), engaging with a European community around sustainable innovation.  
 - **[Oct. 2024]** Attended the [World Food Forum](https://www.world-food-forum.org/en) at FAO headquarters in Rome as part of the Swiss delegation, representing EPFL and contributing to discussions on global food systems.  

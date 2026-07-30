@@ -2,3 +2,8 @@
 ---
 
 @import "minimal-light-no-dark-mode";
+
+.image.avatar img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}

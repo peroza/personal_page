@@ -3,7 +3,7 @@
 
 @import "minimal-light-no-dark-mode";
 
-.image.avatar {
+.profile-avatar {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -14,28 +14,30 @@
   padding: 0;
   line-height: 0;
   background-color: #ffffff;
+  text-decoration: none;
+  flex-shrink: 0;
 }
 
-.image.avatar img {
+.profile-avatar img {
   width: 100%;
   height: 100%;
   max-width: none;
   object-fit: contain;
   object-position: center center;
-  border-radius: 0;
+  display: block;
   padding: 0;
-  aspect-ratio: auto;
+  border-radius: 0;
 }
 
 @media print, screen and (max-width: 960px) {
-  .image.avatar {
+  .profile-avatar {
     width: 157px;
     height: 157px;
   }
 }
 
 @media print, screen and (max-width: 480px) {
-  .image.avatar {
+  .profile-avatar {
     width: 135px;
     height: 135px;
   }

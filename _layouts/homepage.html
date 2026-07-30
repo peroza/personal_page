@@ -84,6 +84,17 @@
         </a>
         {% endif %}
 
+        {% if site.cal_link %}
+        <a style="margin: 0 5px 0 0"
+           href="https://cal.com/{{ site.cal_link }}"
+           data-cal-link="{{ site.cal_link }}"
+           data-cal-namespace="{{ site.cal_namespace | default: 'quick-chat' }}"
+           data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'
+           aria-label="Book a meeting">
+          <i class="fas fa-calendar"></i>
+        </a>
+        {% endif %}
+
         {% if site.twitter %}
         <a style="margin: 0 0 0 0" href="{{ site.twitter }}">
           <i class="fab fa-x-twitter"></i>
@@ -109,6 +120,15 @@
       </footer> -->
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    {% if site.cal_link %}
+    <script type="text/javascript">
+      (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+      Cal("init", "{{ site.cal_namespace | default: 'quick-chat' }}", {origin:"https://app.cal.com"});
+      Cal.config = Cal.config || {};
+      Cal.config.forwardQueryParams = true;
+      Cal.ns["{{ site.cal_namespace | default: 'quick-chat' }}"]("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
+    </script>
+    {% endif %}
     {% if site.google_analytics %}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

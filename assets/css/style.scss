@@ -3,24 +3,20 @@
 
 @import "minimal-light";
 
+.image.avatar {
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  .image.avatar {
+    background-color: #20212b;
+  }
+}
+
 .image.avatar img {
   aspect-ratio: 1 / 1;
-  object-fit: cover;
-  width: 220px;
-  height: 220px;
-  padding: 0;
-}
-
-@media print, screen and (max-width: 960px) {
-  .image.avatar img {
-    width: 180px;
-    height: 180px;
-  }
-}
-
-@media print, screen and (max-width: 480px) {
-  .image.avatar img {
-    width: 140px;
-    height: 140px;
-  }
+  object-fit: contain;
+  object-position: center center;
 }

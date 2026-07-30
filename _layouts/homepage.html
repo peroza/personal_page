@@ -85,13 +85,14 @@
         {% endif %}
 
         {% if site.cal_link %}
-        <a style="margin: 0 5px 0 0"
+        <a class="social-cal-cta"
            href="https://cal.com/{{ site.cal_link }}"
            data-cal-link="{{ site.cal_link }}"
            data-cal-namespace="{{ site.cal_namespace | default: 'quick-chat' }}"
            data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'
-           aria-label="Book a meeting">
-          <i class="fas fa-calendar"></i>
+           aria-label="{{ site.cal_cta | default: 'Wanna have a quick chat?' }}">
+          <span class="social-cal-cta__icon"><i class="fas fa-calendar"></i></span>
+          <span class="social-cal-cta__text">{{ site.cal_cta | default: "Wanna have a quick chat?" }}</span>
         </a>
         {% endif %}
 

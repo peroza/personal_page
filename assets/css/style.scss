@@ -3,52 +3,6 @@
 
 @import "minimal-light";
 
-.profile-avatar {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 9.8em;
-  height: 9.8em;
-  overflow: hidden;
-  border-radius: 50%;
-  padding: 0;
-  line-height: 0;
-  background-color: #ffffff;
-  text-decoration: none;
-  flex-shrink: 0;
-}
-
-@media (prefers-color-scheme: dark) {
-  .profile-avatar {
-    background-color: #20212b;
-  }
-}
-
-.profile-avatar img {
-  width: 100%;
-  height: 100%;
-  max-width: none;
-  object-fit: contain;
-  object-position: center center;
-  display: block;
-  padding: 0;
-  border-radius: 0;
-}
-
-@media print, screen and (max-width: 960px) {
-  .profile-avatar {
-    width: 157px;
-    height: 157px;
-  }
-}
-
-@media print, screen and (max-width: 480px) {
-  .profile-avatar {
-    width: 135px;
-    height: 135px;
-  }
-}
-
 .social-icons .social-cal-cta {
   display: inline-flex;
   align-items: center;

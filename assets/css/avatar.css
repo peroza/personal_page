@@ -1,0 +1,40 @@
+/* Avatar circle — plain CSS so it always applies (no SCSS dependency). */
+.profile-avatar {
+  display: inline-block !important;
+  width: 160px !important;
+  height: 160px !important;
+  border-radius: 50% !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  margin: 0 auto 1em !important;
+  line-height: 0 !important;
+  background-color: transparent !important;
+  text-decoration: none !important;
+  flex-shrink: 0 !important;
+}
+
+.profile-avatar img {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  object-fit: cover !important;
+  object-position: center 20% !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+@media print, screen and (max-width: 960px) {
+  .profile-avatar {
+    width: 140px !important;
+    height: 140px !important;
+  }
+}
+
+@media print, screen and (max-width: 480px) {
+  .profile-avatar {
+    width: 120px !important;
+    height: 120px !important;
+  }
+}
